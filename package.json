@@ -1,0 +1,19 @@
+{
+  "name": "car_value_api",
+  "version": "1.0.0",
+  "description": "Car Value API This is a REST API that takes a car model and year as input and returns the suggested value for the car based on certain business rules.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
