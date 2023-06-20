@@ -17,8 +17,6 @@ Start the server by running the following command:
 
 npm run start
 
-Contributing
-Contributions are welcome! If you encounter any issues or have suggestions for improvement, please create a new issue or submit a pull request.
 The server will start on port 3000 by default.
 
 Send a POST request to the /car-value endpoint with the car model and year in the request body in JSON format. For example:
@@ -45,3 +43,6 @@ If there is an error with the input values, the server will respond with a JSON 
 {
 "error": "there is an error"
 }
+
+Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvement, please create a new issue or submit a pull request.
